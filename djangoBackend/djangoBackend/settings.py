@@ -29,7 +29,6 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-# Pruebas
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -38,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'hello_world_api',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
